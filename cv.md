@@ -42,7 +42,7 @@ function squareSum(numbers){
 ```
 
 ---
-### Education
+### Experience
 ---
  1. [magisters.voenmeh.ru - HTML, CSS, PHP, Laravel, Blade, Composer](https://magisters.voenmeh.ru/ "ссылка на ЭИОС отдела магистратуры")
  2. [sedelkin.ru - HTML, CSS, PHP, Laravel, Vue3](https://sedelkin.ru/ "ссылка на sedelkin.ru")
