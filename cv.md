@@ -21,7 +21,7 @@ Hi, my name is Vadim. I have a master's degree in Software Engineering. I am cur
 *  CSS (Bootstrap)
 *  JavaScript (Vue2, Vue3)
 *  PHP (Laravel)
-*  Git & Github & GitBook
+*  Git & GitHub & GitBook
 *  Composer
 *  Blade
 
