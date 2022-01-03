@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Vadim Sedelkin</title>
+  <link rel="icon" href="https://rs.school/favicon.ico">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="main-container">
+   <header class="header">
+     <div class="container">
+       <nav>
+         <ul class="navbar-list">
+            <li><a class="link navbar-link" href="#about-me">About Me</a></li>
+            <li><a class="link navbar-link" href="#contact">Contact</a></li>
+            <li><a class="link navbar-link" href="#skills">Skills</a></li>
+            <li><a class="link navbar-link" href="#code-example">Code Example</a></li>
+            <li><a class="link navbar-link" href="#experience">Experience</a></li>
+            <li><a class="link navbar-link" href="#education">Education</a></li>
+            <li><a class="link navbar-link" href="#languages">Languages</a></li>
+         </ul>
+       </nav>
+     </div>
+   </header>
+   <main class="container content-container">
+     <section class="cv-title">
+      <img src="https://avatars.githubusercontent.com/u/33957390?v=4" alt="My photo" class="cv-photo">
+      <div class="title-section">
+        <fieldset class="cv-name-border">
+          <legend class="cv-position">Junior Front-End Developer</legend>
+          <h1 class="cv-name">Vadim Sedelkin</h1>
+        </fieldset>
+      </div>
+     </section>
+     <section id="about-me" class="section">
+      <h2 class="section-header">
+        About Me
+      </h2>
+      <p style="text-align: justify;">
+        Hi, I'm Vadim. I have a master's degree in Software Engineering. I am studying at RS Shool JavaScript/Front-end. I like to learn something new, communicate with new people and pass on my knowledge to those who want it.
+      </p>
+    </section>
+     <section id="contact" class="section">
+       <h2 class="section-header">
+         Contact
+       </h2>
+       <ul class="contact-list">
+         <li>
+          <img class="img-li" src="assets/svg/email.svg" alt="Email">
+          <a href="mailto:vadim@sedelkin.ru" target="_blank">vadim@sedelkin.ru</a>
+         </li>
+         <li>
+          <img class="img-li" src="assets/svg/github-list.svg" alt="GitHub">
+          <a href="https://github.com/VadimSedelkin" target="_blank">VadimSedelkin</a>
+        </li>
+        <li>
+          <img class="img-li" src="assets/svg/discord.svg" alt="Discord">
+          <a href="https://discordapp.com/users/3669/" target="_blank">Vadim Sedelkin (@vadimsedelkin)</a>
+        </li>
+        <li>
+          <img class="img-li" src="assets/svg/telegram-logo.svg" alt="Telegram">
+          <a href="https://telegram.me/vadimsedelkin" target="_blank">@vadimsedelkin</a>
+        </li>
+        <li>
+          <img class="img-li" src="assets/svg/vk-logo.svg" alt="VK">
+          <a href="https://vk.com/ru_vadim" target="_blank">@ru_vadim</a>
+        </li>
+       </ul>
+     </section>
+     <section id="skills" class="section">
+       <h2 class="section-header">
+         Skills
+       </h2>
+       <ul>
+         <li>
+          HTML5
+         </li>
+         <li>
+          CSS, Flex, Grid (Bootstrap)
+        </li>
+        <li>
+          JavaScript (jQuery, Vue2, Vue3)
+        </li>
+        <li>
+          PHP (Laravel)
+        </li>
+        <li>
+          Git & GitHub & GitBook
+        </li>
+        <li>
+          Composer
+        </li>
+        <li>
+          Blade
+        </li>
+       </ul>
+     </section>
+     <section id="code-example" class="section">
+      <h2 class="section-header">
+        Code Example
+      </h2>
+      <pre><code>function squareSum(numbers){
+  let sumSquare = 0;
+  numbers.forEach(function(item){
+    sumSquare += item ** 2; 
+  });
+  return sumSquare;
+}</code>
+      </pre>
+    </section>
+    <section id="experience" class="section">
+      <h2 class="section-header">
+        Experience
+      </h2>
+      <ul class="project-list">
+        <li>
+          <a href="https://magisters.voenmeh.ru" target="_blank">magisters.voenmeh.ru</a>
+        </li>
+        <li>
+          <a href="https://github.com/VadimSedelkin/rsschool-cv/tree/gh-pages" target="_blank">My CV page</a>
+        </li>
+      </ul>
+    </section>
+    <section id="education" class="section">
+      <h2 class="section-header">
+        Education
+      </h2>
+      <ul>
+        <li>
+          BALTIC STATE TECHNICAL UNIVERSITY «VOENMEH» named after D.F. Ustinov
+          <ul>
+            <li>2015 - 2019: Software engineering, Bachelor's Degree</li>
+            <li>2019 - 2021: Softwate engineering, Master's Degree</li>
+          </ul>
+        </li>
+        <li>
+          Courses
+          <ul>
+            <li>Code Basics - HTML / CSS / JavaScript</li>
+            <li>Sololearn - jQuery / PHP / SQL</li>
+          </ul>
+       </li>
+      </ul>
+    </section>
+    <section id="languages" class="section">
+      <h2 class="section-header">
+        Languages
+      </h2>
+      <ul>
+        <li>English - A1</li>
+        <li>Russian - Native</li>
+       <li>Ukrainian - C2</li>
+      </ul>
+    </section>
+   </main>
+   <footer class="footer">
+    <div class="container footer-container">
+       <a class="link img-link gh-link" href="https://github.com/VadimSedelkin"></a>
+       <p>©2022</p>
+       <a class="link img-link rss-link" href="https://rs.school/js/"></a>
+    </div>
+   </footer>
+   <script src="./js/index.js"></script>
+</body>
+</html>
